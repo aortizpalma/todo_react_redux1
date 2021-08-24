@@ -3,8 +3,10 @@
 }
 
 .todo {
+  color: green;
 }
 
-.todo .strike {
-  color: red;
+.todo.strike {
+  color: grey;
+  text-decoration: line-through;
 }
